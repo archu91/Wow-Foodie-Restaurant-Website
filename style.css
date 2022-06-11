@@ -1,0 +1,184 @@
+@media (min-width: 500px) {
+    body {
+        font-size: 30px;
+    }
+}
+
+header {
+    min-height: 700px;
+    background-image: url("images/food_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+header #heading {
+    background: linear-gradient(to right, rgba(173, 216, 230, 0.4), rgba(127, 255, 212, 0.5) ) ;
+    transition: 0.4s;
+    padding: 5px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+
+}
+
+#navigate {
+    float: right;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header #navigate .menu, .menu:visited {
+    padding: 10px;   
+    margin: 30px;
+    border-radius: 10px;
+    color: black;
+    -webkit-text-stroke: 0.2px red;
+    background: azure;  
+    text-decoration: none;
+}
+
+header #navigate .menu:hover {
+    background-color: rgba(63, 25, 255, 0.76);
+    color: white;
+    font-size: 21px;
+    border: 1px solid black; 
+}
+
+header #title{
+    text-align: center;
+    margin-top: 17%;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 70px;
+    color: firebrick;
+    -webkit-text-stroke: 0.5px black;
+    font-family: "Lucida Handwriting";
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+table, tr, th, td {
+    font-family: 'Papyrus';
+    font-weight: bold;
+    border-collapse: collapse;
+    padding: 5px;
+    border-spacing: 10px;
+    vertical-align: middle;
+    padding-right: 50px;
+}
+
+table td + td{ 
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+table img {
+    float: left; margin-top: -10%;
+}
+
+.image {
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.image:hover {
+    width: 650px;
+    opacity: 0.5;
+}
+
+.container div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+     -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.container:hover div {
+    visibility: visible;
+    opacity: 1;
+}
+
+ul {
+    display: flex;
+    justify-items: space-around;
+}
+
+li {
+    margin-right: 10%;
+}
+
+.container {
+    position: relative;
+    float: left;
+}
+
+.container div span {
+    font-size: 15px;
+}
+
+.form .details {
+    margin-top: 20px;
+}
+
+.form .details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% /2 -20px)
+}
+
+.form .details .input-box input {
+  height: 30px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.button {
+    text-align: center; 
+    margin-top: 50px;
+    margin-bottom: 30px
+}
+
+.click {
+    width: 200px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background: linear-gradient(to right, #71b7e6, #9b59b6);
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.click:hover {
+    background: linear-gradient(to left, #71b7e6, #9b59b6);
+    color: black;
+}
+
+.click:active {
+    background: purple;
+    color: white;
+}
+
+
+

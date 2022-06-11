@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My HTML Page</title>
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+      }
+      h1,h3,h5 {
+        text-align: center
+      }
+    </style>
+  </head>
+  <body>
+    <header style="background-image: url('../images/contact.png'); background-size: contain;">
+      <div id="heading">
+        <nav id="navigate">
+          <a class="menu" href="../index.html"> Home </a>
+          <a class="menu" href="about.html"> About Us </a>
+          <a class="menu" href="menu.html"> Menu </a>
+          <a class="menu" href="../index.html#gallery"> Gallery </a>
+          <a class="menu" href="../index.html#hall"> Banquet Hall</a>
+          <a class="menu" href="#contact"> Contact Us </a>
+        </nav>  
+        <img src="../images/logo.png" width=100/>
+    </div>
+        <div id="title"> <span style="font-family: 'Brush Script MT'; color:darkcyan"> Contact Us </span> <br/> Wow Foodie Restaurant </div>
+    </header>
+    
+    <main>
+        <section>
+          <h3 id="contact"> •⁃⁃⁃⁃⁃  Stay in Touch ⁃⁃⁃⁃⁃• </h3>
+          <h1  style="font-size: xx-large;"> Contact Number : +91 9987654321 
+          <br/> eMail : contact@wowfoodie.com </h1>  
+          <h3> •⁃⁃⁃⁃⁃  Open Timings ⁃⁃⁃⁃⁃• </h3>
+          <h1  style="font-size: xx-large;"> Monday to Sunday :- ​7 am – 2:30 am </h1>    
+        </section>
+        <hr/>
+        <section>
+          <h3> •⁃⁃⁃⁃⁃   Let’s Begin Sharing Tastes & Moments!  ⁃⁃⁃⁃⁃• </h3>
+          <h5> Let us together begin the tale of tastes that lingers in your taste buds and events that leave you spellbound! Get in touch with us here </h5>
+
+          <div class="form">
+          <form action="../index.html">
+              <div class="details">
+                  <div class="input-box">
+                    <label for="fn">First Name:</label>
+                    <input id="fn" type="text" placeholder="Enter your First name" required>
+                  </div>
+                  <div class="input-box">
+                    <label for="ln">Last Name:</label>
+                    <input id="ln" type="text" placeholder="Enter your Last name" required>
+                  </div>
+                  <div class="input-box">
+                    <label for="cn">Contact Number: </label>
+                    <input id="cn" type="tel" placeholder="Enter your Contact number" required>
+                  </div>
+                  <div class="input-box">
+                    <label for="ea"> Email Address:  </label>
+                    <input id="ea" type="email" placeholder="Enter your Email Address" required>
+                  </div>
+                  <div>
+                    <label> Gender:  </label>
+                    <label for="male" class="input-label"><input type="radio" name="gender" value="male" id="male"> Male</label>
+                    <label for="female" class="input-label"><input type="radio" name="gender" value="female" id="female"> Female</label>
+                  </div>
+                  <br/>
+                  <div class="input-box">
+                    <label for="msg"> Message:  </label> <br/>
+                    <textarea id="msg" rows="5%" cols="80%"> </textarea>
+                  </div>
+                  <div class="button">
+                    <button class="click" type="submit"> SUBMIT </button>
+                    <!--
+                    <a class="click" href="index.html"  onclick="alert('Successfully registered!');"> REGISTER </a>
+                    <input class="click" type="submit" value="REGISTER"  onclick="alert('Successfully registered!'); window.location.href='index.html';"/>
+                      -->
+                  </div>
+              </div>
+            </form>
+        </div>
+        </section>
+    </main>
+  </body>
+</html>
