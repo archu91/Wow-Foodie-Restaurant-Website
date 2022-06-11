@@ -1,11 +1,11 @@
 @media (min-width: 500px) {
     body {
         font-size: 30px;
-    }
+    }88vh
 }
 
 header {
-    min-height: 40vw;
+    min-height: 88vh;
     min-width: 100%;
     background-image: url("images/food_bg.jpg");
     background-repeat: no-repeat;
