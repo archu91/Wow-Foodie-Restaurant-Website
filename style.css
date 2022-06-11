@@ -46,7 +46,7 @@ header #navigate .menu:hover {
     border: 1px solid black; 
 }
 
-header #title{
+header #title, #about, #food, #gallery, #hall, #contact{
     text-align: center;
     margin-top: 17%;
     font-weight: 900;
