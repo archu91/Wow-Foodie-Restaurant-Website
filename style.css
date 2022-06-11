@@ -5,7 +5,8 @@
 }
 
 header {
-    min-height: 700px;
+    min-height: 40vw;
+    min-width: 100%;
     background-image: url("images/food_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
