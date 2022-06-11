@@ -1,7 +1,7 @@
 @media (min-width: 500px) {
     body {
         font-size: 30px;
-    }88vh
+    }
 }
 
 header {
@@ -79,16 +79,15 @@ table img {
 }
 
 .image {
-    width: calc(100vw/2.5);
-    height: calc(100vh/1.5);
+    width: 40vw;
+    height: 60vh;
     padding: 10px;
     margin-left: calc(0.5vw);
     float: left;
 }
 
 .image:hover {
-    width: calc(100vw/2.3);
-    height: calc(100vh/1.1);
+    width: 42vw;
     opacity: 0.5;
 }
 
